@@ -12,7 +12,7 @@ class spielfeld extends Component {
           game: [],
           isLoading: true,
       }
-      this.handleUnload = this.handleUnload.bind(this);
+      this.handleUnload = this.handleUnload.bind(this); //cool
   }
 
   componentDidMount(){
