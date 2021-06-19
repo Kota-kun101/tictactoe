@@ -4,7 +4,6 @@ import PlayingField from './Spielfeld/Spielfeld';
 import Entername from './EnterName/EnterName';
 import Games from './viewGames/ViewGames';
 import Modal from './Modal/modal';
-import FeedbackForm from './Form/Form';
 import './App.css';
 
 class App extends Component {
@@ -71,10 +70,6 @@ class App extends Component {
         }/>
         <Route path="/Games" exact render={() =>
           <Games setGameId={this.setgameId} setIcon={this.seticon} playerName={this.state.playerName} playerId={this.state.playerId}/>
-        }/>
-        <Route path="/Feedback" exact render={() =>
-          <FeedbackForm />
-          /*<div></div>*/
         }/>
       </div>
       </BrowserRouter>
